@@ -47,9 +47,9 @@ profiles:
     url: https://orcid.org/0009-0001-4275-5140
 
 interests:
+  - Distributed Computing
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Databases
 
 education:
   - area: PhD Artificial Intelligence
@@ -183,4 +183,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a Dutch master student of software engineering at Kungliga Tekniska Högskolan (KTH) in Stockholm. My major is geared towards distributed computing, which takes many forms. My bachelor I completed at the University of Applied Sciences in Rotterdam (HR) in 2022. Currently (spring 2025) I will be working with the Data Systems Lab at KTH in collaboration with the Research institute Sweden to research the use of CRDTs in a stream processing environment.
