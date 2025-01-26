@@ -52,101 +52,154 @@ interests:
   - Databases
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Msc Software Engineering of Distributed Systems
+    institution: Kungliga Tekniska högskolan (KTH) Stockholm
+    date_start: 2023-09-01
+    # date_end: Current
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+       - GPA: 3.8/4.0
+       - Developed and deployed a scalable, serverless machine learning (ML) pipeline for air quality predictions, utilizing Hopsworks manage feature stores and model registry.
+       - Fine‑tuned an open‑source Large Language Model (LLM) to act as an intelligent cooking assistant, improving its understanding and recipe generation abilities.
+       - Implemented algorithms in Scala to achieve increased consistency and fault tolerance when using Conflict‑Free Replicated Data Types (CRDTs) in distributed systems.
+       - Used advanced signal processing techniques to preform speaker diarization on podcast audio data, improving content understanding and quality.
+  - area: Bsc Information Technology
+    institution: Rotterdam University of Applied Sciences
+    date_start: 2018-09-01
+    date_end: 2022-10-01
+    summary: |
+      - GPA: 3.0/4.0
+      - Applied machine and deep learning techniques using Python and TensorFlow to solve complex problems like the Vehicle Routing Problem (VRP).
+      - Designed and developed an immersive Virtual Reality (VR) application using the Unity game engine for Sogeti, enhancing user experience and interaction.
+      - Conducted in‑depth research on software and hardware requirements to support operational efficiency for the Dutch Royal Army, ensuring alignment with technical and strategic goals
+      - Built and deployed a robust web scraper for TNO, enabling automated data extraction and improved information gathering processes
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      text: 'Download Thesis'
+      url: 'uploads/VERSLAG_0964326.pdf'
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+  - position: Junior Software Developer
+    company_name: Spaux formally Helmink IT Solutions
+    company_url: 'https://spaux.io/'
+    # TODO: Fix this
+    company_logo: '../../../assets/media/spaux_logo.png'
+    date_start: 2022-02-01
+    date_end: 2023-08-01
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+      - Developed microservices architecture for real‑time public transport tracking, ensuring correctness and low‑latency performance.
+      - Designed intuitive and user‑centric Graphical User Interfaces (GUIs).
+      - Contributed to the architectural design of a new SaaS application in the IT communication domain, focusing on scalability, reliability, and modern development practices.
+      - Lead the adoption of version control best practices and agile methodologies across the organization, introducing practices such as Kanban board, stand‑up meetings, and structured error documentation.
+  - position: Junior Developer
+    company_name: Sultan CRM
+    company_url: 'https://sultancrm.nl/'
+    # TODO: Add logo
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2020-09-01
+    date_end: 2021-09-01
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Modernized legacy codebases by updating them to reflect current development standards, improving performance and scalability.
+      - Contributed to the development of efficient database systems, supporting data integrity and scalability.
+      - Worked on workflow optimization by leading team discussions to identify best practices, improving collaboration and efficiency.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Languages
     items:
-      - name: Python
+      - name: Java
         description: ''
         percent: 80
-        icon: code-bracket
-      - name: Data Science
+        icon: devicon/java
+      - name: Python
         description: ''
         percent: 100
-        icon: chart-bar
-      - name: SQL
+        icon: devicon/python
+      - name: PHP/Laravel
         description: ''
         percent: 40
-        icon: circle-stack
-  - name: Hobbies
+        icon: devicon/php
+      - name: Scala
+        description: ''
+        percent: 40
+        icon: devicon/scala
+      - name: C#
+        description: ''
+        percent: 40
+        icon: devicon/csharp
+      - name: JavaScript
+        description: ''
+        percent: 40
+        icon: devicon/javascript
+      - name: Erlang
+        description: ''
+        percent: 40
+        icon: devicon/erlang
+  - name: Technologies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Node.js
         description: ''
         percent: 60
-        icon: person-simple-walk
-      - name: Cats
+        icon: devicon/nodejs
+      - name: TensorFlow
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
+        icon: devicon/tensorflow
+      - name: Vue.js
         description: ''
         percent: 80
-        icon: camera
+        icon: devicon/vuejs
+      - name: Apache Spark
+        description: ''
+        percent: 80
+        icon: devicon/apachespark
+      - name: Apache Flink
+        description: ''
+        percent: 80
+        icon: devicon/apache
+  - name: Concepts
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Advanced Distributed Systems
+        description: ''
+        percent: 60
+        icon: hero/globe-alt
+      - name: CRDTs (Conflict-free Replicated Data Types)
+        description: ''
+        percent: 100
+        icon: hero/command-line
+      - name: Multi-agent Systems
+        description: ''
+        percent: 80
+        icon: hero/user-group
+      - name: REST
+        description: ''
+        percent: 80
+        icon: hero/chat-bubble-left-right
+      - name: Machine Learning
+        description: ''
+        percent: 80
+        icon: hero/cpu-chip
+      - name: Speech Recognition
+        description: ''
+        percent: 80
+        icon: hero/megaphone
+      - name: Agile
+        description: ''
+        percent: 80
+        icon: hero/clipboard-document-check
+      - name: AI (Artificial Intelligence)
+        description: ''
+        percent: 80
+        icon: hero/adjustments-horizontal
 
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
+  - name: Dutch
+    percent: 100
+  - name: Swedish
     percent: 25
 
 # Awards.
@@ -183,4 +236,4 @@ awards:
 
 ## About Me
 
-I am a Dutch master student of software engineering at Kungliga Tekniska Högskolan (KTH) in Stockholm. My major is geared towards distributed computing, which takes many forms. My bachelor I completed at the University of Applied Sciences in Rotterdam (HR) in 2022. Currently (spring 2025) I will be working with the Data Systems Lab at KTH in collaboration with the Research institute Sweden to research the use of CRDTs in a stream processing environment.
+I am a Dutch master student of software engineering at Kungliga Tekniska Högskolan (KTH) in Stockholm 🇸🇪. My major is geared towards distributed computing, which takes many forms. My bachelor I completed at the University of Applied Sciences in Rotterdam (HR) in 2022. Currently (spring 2025) I will be working with the Data Systems Lab at KTH in collaboration with the Research institute Sweden to research the use of CRDTs in a stream processing environment.
